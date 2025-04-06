@@ -14,9 +14,11 @@ public class CuboNicomaco {  //Código para calcular los cubos de los N números
         }
     }
 
-    public static void main(String[] args) {
-       int N = 8;
-       calcularCubos(N);
+      Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese un número: "); //se le pide al usuario la cantidad de cubos a procesar
+       int N =  scanner.nextInt();
+        calcularCubos(N);
+
     }
 
 }
