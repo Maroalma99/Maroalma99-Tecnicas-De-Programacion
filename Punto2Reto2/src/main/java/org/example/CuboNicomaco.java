@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Scanner;
 
 public class CuboNicomaco {  //Código para calcular los cubos de los N números
     public static void calcularCubos(int N) {  //se recibe el entero en representación de la cantidad de cubos a calcular
